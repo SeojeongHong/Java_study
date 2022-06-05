@@ -39,3 +39,38 @@ String name = “Ja” +”va”; // “Java”
 
 String str = name + 8/0; //”Java*.0”
 ```
+
+- 형식화된 출력 - 지시자
+
+|지시자|설명|
+|------|--------------|
+|%b|불리언형식으로 출력|
+|%d|10진 정수의 형식으로 출력|
+|%o|8진 정수의 형식으로 출력|
+|%x, %X|16진 정수의 형식으로 출력|
+|%f|부동 소수점의 형식으로 출력|
+|%e, %E|지수 표현식의 형식으로 출력|
+|%c|문자로 출력|
+|%s|문자열로 출력|
+
+- 화면에서 입력받기
+```java
+import java.util.*; //Scanner 클래스를 사용하기 위해 추가
+
+Scanner scanner = new Scanner (System.in);  //scanner 클래스 객체 생성
+
+String input = scanner.nextLine();
+int num = Integer.pardeInt(input);
+```
+
+- 형변환
+: 변수 또는 상수의 타입을 다른 타입으로 변환하는 것
+
+|변환|수식|결과|
+|------|--------------|---------|
+|int -> char|(char) 65|'A'|
+|char -> int|(int)'A'|65|
+|float -> int|(int)1.6f|1|
+|int -> float|(float)10|10.0f|
+
+
