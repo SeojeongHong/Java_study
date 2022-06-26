@@ -151,6 +151,11 @@ Scanner scanner = new Scanner(System.in); // Scanner 클래스의 객체를 생�
 "3" -> '3' ( "3".charAT=t(0))
 
 
+![image](https://user-images.githubusercontent.com/106004560/175815501-cce1ac89-394a-431a-b9dd-7b5efc8fd67e.png)
+오류
+
+
+
 
 
 
