@@ -50,8 +50,8 @@ java - editor - content Assist 자동완성
 빈공간 -> import ->archive file
 
 
-[이해되지 않은 부분]
+**[이해되지 않은 부분]**
 
-Package 명과 Class 명이 같으면 왜 오류가 뜰까?
+- Package 명과 Class 명이 같으면 왜 오류가 뜰까? -> 이유 :  **패키지명은 구별 해야되기 때문에 이름이 유일무이 해야한다.**
 
 (Hello ,Hello 했더니 오류뜸)
