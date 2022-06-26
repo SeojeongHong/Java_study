@@ -59,6 +59,9 @@
 |실수형|||float|double|
 
 
+**정수형(btye) (short) (int) (long)** 
+
+ln[-2^n-1 ~ 2^n-1 -1]:
 
 
 
