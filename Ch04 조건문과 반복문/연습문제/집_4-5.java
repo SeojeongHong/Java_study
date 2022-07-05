@@ -11,7 +11,6 @@ public class Prac4 {
 				System.out.print("*");
 				j++;
 			}
-			System.out.println("< " + i + "th line.");
 			i++;
 		}
 	}
